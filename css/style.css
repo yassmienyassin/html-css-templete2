@@ -20,18 +20,7 @@
         margin:auto;
     }
 
-    .clear{
-        clear:both;
-    }
 
-    .overlay{
-        position: absolute;
-        width: 100%;
-        height: 100%;
-        top:0;
-        left:0;
-        background:rgba(0,0,0,.7);
-    }
     /* section header */
     .section-header{
         text-align: center;
@@ -52,21 +41,6 @@
     }
     .section-header:hover .line{
         width: 150px;
-    }
-
-    h1, h2, h3, h4, h5, h6{
-        
-    }
-
-    button{
-        font-family: inherit;
-    }
-
-    .hover-opacity{
-        transition: opacity .5s;
-    }
-    .hover-opacity:hover{
-        opacity:0.8;
     }
     ul{
         list-style: none;
@@ -316,8 +290,7 @@
     .category .ul-bollets{
         transform:translate(-50%,-103%) scale(1);
         opacity: 1;
-        visibility: visible;
-       
+        visibility: visible;  
     }
     .category .ul-bollets li{
         background:#000;
@@ -508,8 +481,8 @@
         transform: translate(-50%, -50%);
     }
     .product-overlay ul li{
-      display:inline-block;
-      text-align: center;
+        display:inline-block;
+        text-align: center;
       
     }
     .product-overlay ul li a{
@@ -548,7 +521,6 @@
     .client-item .discount-desc .top{
         margin-bottom: 64px;
         padding-left: 132px;
-       
     }
     .client-item .discount-desc .top .icon{
         font-size: 20px;
